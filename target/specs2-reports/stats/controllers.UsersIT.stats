@@ -1,0 +1,31 @@
+<controllers.UsersIT-stats timestamp="1409067231860"><stats time="581" expectations="2" successes="2" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409072627495"><result location="controllers.UsersIT (UsersIT.scala:23)" id="-1179193934"><stats time="487" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409072627498"><stats time="581" expectations="2" failures="1" successes="1" examples="2"><trend><stats time="581" failures="1" successes="-1"></stats></trend></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409072769182"><result location="controllers.UsersIT (UsersIT.scala:23)" id="-1179193934"><stats time="420" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409072769185"><stats time="502" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409073294833"><result location="controllers.UsersIT (UsersIT.scala:23)" id="-1179193934"><stats time="389" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409073294835"><stats time="440" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409073351346"><result location="controllers.UsersIT (UsersIT.scala:23)" id="-1179193934"><stats time="370" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409073351352"><stats time="462" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409073515631"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="416" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409073515635"><stats time="489" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409073775547"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="401" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409073775550"><stats time="468" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409074056583"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="460" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409074056598"><stats time="630" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409074516349"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="430" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409074516359"><stats time="530" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409075098132"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="378" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409075098147"><stats time="431" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>
+<controllers.UsersIT-results timestamp="1409075866104"><result location="controllers.UsersIT (UsersIT.scala:22)" id="-1179193934"><stats time="425" expectations="1" failures="1" examples="1"></stats></result>
+</controllers.UsersIT-results>
+<controllers.UsersIT-stats timestamp="1409075866114"><stats time="569" expectations="2" failures="1" successes="1" examples="2"></stats></controllers.UsersIT-stats>

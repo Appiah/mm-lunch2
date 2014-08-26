@@ -1,0 +1,1497 @@
+2014-08-26 16:42:28,619 - [INFO] - from play in pool-117-thread-2 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-08-26 16:42:40,329 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6jb8p1j2p - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[overriding method reads in trait Reads of type (json: play.api.libs.json.JsValue)play.api.libs.json.JsResult[models.User];
+ method reads has incompatible type]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[na:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[na:na]
+
+2014-08-26 16:42:40,645 - [WARN] - from play in New I/O worker #1 
+No application found at invoker init
+
+2014-08-26 17:03:46,172 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:03:46,189 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:03:46,204 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:03:46,680 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-91729000)
+
+2014-08-26 17:03:46,693 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:03:46,720 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:03:46,721 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:03:46,815 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:03:46,850 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:03:46,932 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:03:46,933 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:03:47,353 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:03:47,395 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:03:47,432 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:03:47,433 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:03:47,455 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:03:47,486 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:06:07,909 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:06:07,927 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:06:07,942 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:06:08,409 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-775034690)
+
+2014-08-26 17:06:08,416 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:06:08,448 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:06:08,449 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:06:08,556 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:06:08,581 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:06:08,696 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:06:08,699 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:06:09,074 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:06:09,095 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:06:09,116 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:06:09,117 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:06:09,138 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:06:09,175 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:14:53,653 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:14:53,669 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:14:53,684 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:14:54,168 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-866571456)
+
+2014-08-26 17:14:54,176 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:14:54,210 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:14:54,210 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:14:54,312 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:14:54,327 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:14:54,419 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:14:54,420 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:14:54,746 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:14:54,773 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:14:54,789 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:14:54,791 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:14:54,806 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:14:54,823 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:15:50,167 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:15:50,184 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:15:50,198 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:15:50,643 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(763811234)
+
+2014-08-26 17:15:50,654 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:15:50,684 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:15:50,685 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:15:50,778 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:15:50,796 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:15:50,887 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:15:50,888 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:15:51,216 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:15:51,237 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:15:51,258 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:15:51,259 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:15:51,287 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:15:51,327 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:18:34,402 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:18:34,419 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:18:34,433 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:18:34,893 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-1539296186)
+
+2014-08-26 17:18:34,900 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:18:34,936 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:18:34,937 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:18:35,032 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:18:35,065 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:18:35,170 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:18:35,170 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:18:35,518 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:18:35,549 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:18:35,569 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:18:35,570 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:18:35,589 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:18:35,619 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:21:20,411 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:21:20,444 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:21:20,451 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-08-26 17:21:22,169 - [ERROR] - from application in play-akka.actor.default-dispatcher-11 
+
+
+! @6jb943lnm - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:22:10,053 - [ERROR] - from application in play-akka.actor.default-dispatcher-12 
+
+
+! @6jb946ejf - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:22:54,353 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:22:54,371 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:22:54,387 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:22:54,841 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-1010359349)
+
+2014-08-26 17:22:54,851 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:22:54,880 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:22:54,882 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:22:54,978 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:22:55,019 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:22:55,082 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:22:55,083 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:22:55,423 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:22:55,461 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:22:55,485 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:22:55,485 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:22:55,502 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:22:55,527 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:23:59,502 - [ERROR] - from application in play-akka.actor.default-dispatcher-8 
+
+
+! @6jb94ckh4 - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:27:35,200 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:27:35,217 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:27:35,231 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:27:35,699 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-1798150139)
+
+2014-08-26 17:27:35,712 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:27:35,745 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:27:35,747 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:27:35,847 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:27:35,872 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:27:35,968 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:27:35,989 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:27:36,369 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:27:36,496 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:27:36,497 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:27:36,521 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:27:36,573 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:15,094 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:35:15,112 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:35:15,125 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:35:15,586 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-1866941471)
+
+2014-08-26 17:35:15,597 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:15,631 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:35:15,632 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:35:15,732 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:35:15,749 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:15,829 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:35:15,832 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:35:16,203 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:35:16,235 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:16,254 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:35:16,255 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:35:16,270 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:35:16,334 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:21,073 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:35:21,111 - [INFO] - from application in ForkJoinPool-3-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:35:21,216 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:35:21,217 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:35:21,217 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-08-26 17:35:21,810 - [ERROR] - from application in play-akka.actor.default-dispatcher-13 
+
+
+! @6jb95pfpk - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:35:26,046 - [ERROR] - from application in play-akka.actor.default-dispatcher-13 
+
+
+! @6jb95pm6i - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:35:30,587 - [ERROR] - from application in play-akka.actor.default-dispatcher-16 
+
+
+! @6jb9602p9 - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:44:56,977 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:44:56,995 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:44:57,008 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:44:57,464 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(1301640884)
+
+2014-08-26 17:44:57,473 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:44:57,509 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:44:57,510 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:44:57,610 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:44:57,644 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:44:57,723 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:44:57,724 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:44:58,052 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:44:58,069 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:44:58,087 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:44:58,087 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:44:58,105 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:44:58,122 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:45:04,233 - [ERROR] - from application in play-akka.actor.default-dispatcher-21 
+
+
+! @6jb976jeh - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	... 4 common frames omitted
+
+2014-08-26 17:45:07,723 - [ERROR] - from application in play-akka.actor.default-dispatcher-20 
+
+
+! @6jb976oin - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:56:32,707 - [INFO] - from application in play-internal-execution-context-7 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:56:32,721 - [INFO] - from application in ForkJoinPool-3-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:56:32,779 - [INFO] - from application in play-internal-execution-context-7 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:56:32,779 - [INFO] - from application in play-internal-execution-context-7 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:56:32,787 - [INFO] - from play in play-internal-execution-context-7 
+Application started (Dev)
+
+2014-08-26 17:56:35,864 - [ERROR] - from application in play-akka.actor.default-dispatcher-34 
+
+
+! @6jb98k2hm - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:57:17,766 - [ERROR] - from application in play-akka.actor.default-dispatcher-46 
+
+
+! @6jb98mchd - Internal server error, for (GET) [/users] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[na:na]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:166) [na:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$13$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:163) [na:na]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [na:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185) [na:na]
+	at scala.util.Try$.apply(Try.scala:161) [na:na]
+	at scala.util.Failure.recover(Try.scala:185) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:136) [na:na]
+	at com.typesafe.trace.FutureCallback.apply(FutureTrace.scala:127) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [na:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [na:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [na:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39) [na:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:385) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [na:na]
+Caused by: java.lang.RuntimeException: JsError(List((/lunchName,List(ValidationError(error.path.missing,WrappedArray()))), (/fullname,List(ValidationError(error.path.missing,WrappedArray()))), (/id,List(ValidationError(error.path.missing,WrappedArray())))))
+	at scala.sys.package$.error(package.scala:27) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:350) ~[na:na]
+	at play.api.libs.iteratee.Iteratee$$anonfun$run$1.apply(Iteratee.scala:343) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody0(Execution.scala:43) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute_aroundBody1$advice(Execution.scala:138) [na:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:1) [na:na]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete_aroundBody2(Promise.scala:248) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure3.run(Promise.scala:1) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0proceed(FutureTraceAspect.aj:148) [na:na]
+	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$4$3fd2d6f0(FutureTraceAspect.aj:150) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:244) [na:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [na:na]
+	at scala.concurrent.Promise$class.success(Promise.scala:89) [na:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:153) [na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:116) ~[na:na]
+	at reactivemongo.core.iteratees.CustomEnumerator$SEnumerator$$anonfun$reactivemongo$core$iteratees$CustomEnumerator$SEnumerator$$loop$1$1.apply(iteratees.scala:87) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:47) ~[na:na]
+	at com.typesafe.trace.IterateeTrace$StepTracerHook.apply(IterateeTrace.scala:39) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at play.api.libs.iteratee.ImmediateIteratee$$anonfun$fold$2.apply(Iteratee.scala:595) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
+	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$3.exec(ExecutionContextImpl.scala:107) ~[na:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) [na:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) [na:na]
+	... 2 common frames omitted
+
+2014-08-26 17:57:44,791 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:57:44,808 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:57:44,822 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:57:45,291 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+(State: Closing) UNHANDLED MESSAGE: ChannelConnected(-1161573210)
+
+2014-08-26 17:57:45,344 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:57:45,346 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:57:45,445 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:57:45,471 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:57:45,544 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:57:45,545 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:57:45,918 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:57:45,948 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2014-08-26 17:57:46,036 - [INFO] - from application in main 
+ReactiveMongoPlugin starting...
+
+2014-08-26 17:57:46,037 - [INFO] - from application in main 
+ReactiveMongoPlugin successfully started with db 'modern-web-template'! Servers:
+		[localhost:27017]
+
+2014-08-26 17:57:46,053 - [INFO] - from application in main 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-08-26 17:57:46,092 - [INFO] - from application in ForkJoinPool-3-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
